@@ -12,3 +12,59 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.formContainer form{
+  background-color: white;
+  width: 70%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+}
+
+.uiForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.formField{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.formField input{
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.formField input :focus{
+  outline: none;
+}
+
+.formField label{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+button{
+  background-color: rgb(255, 225, 0);
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover{
+  background-color: rgb(255, 179, 0);
+}
